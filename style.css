@@ -1,0 +1,46 @@
+body {
+    padding-top: 80px;  /* Move body of page below navbar. */
+}
+
+.page-content {
+    text-align: center;
+}
+
+.navbar-brand{
+    line-height: 0px;
+    padding-top: 0px;
+}
+.img-responsive{
+    background-size: cover;
+    background-position: center;
+    height: 385px;
+}
+.panel-body{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    height: 130px;
+    text-align: center;
+}
+.panel-body h2{
+    font-family: Georgia, Times;
+    font-size: 3em;
+    color: #666;
+    font-width: 700;margin: 0px;
+    padding-top: 30px;
+
+}
+.navbar-inverse{
+    height: 80px;
+    background-image: url("http://www.kamanucomposites.com/static/images/bg-carbon.jpg");
+    background-repeat: repeat-x;
+}
+.tagline {
+    font-family: Lucida Grande, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #E5EDDC;
+    text-align: center;
+    width: 8em;
+    line-height: 50px;
+}
