@@ -1,46 +1,54 @@
 body {
-    padding-top: 80px;  /* Move body of page below navbar. */
+  padding-top: 50px;  /* Move body of page below navbar. */
 }
 
 .page-content {
-    text-align: center;
+  padding: 10px;
+  text-align: center;
 }
 
-.navbar-brand{
-    line-height: 0px;
-    padding-top: 0px;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
-.img-responsive{
-    background-size: cover;
-    background-position: center;
-    height: 385px;
-}
-.panel-body{
-    background-color: black;
-    color: white;
-    padding: 50px;
-    height: 130px;
-    text-align: center;
-}
-.panel-body h2{
-    font-family: Georgia, Times;
-    font-size: 3em;
-    color: #666;
-    font-width: 700;margin: 0px;
-    padding-top: 30px;
 
-}
 .navbar-inverse{
-    height: 80px;
-    background-image: url("http://www.kamanucomposites.com/static/images/bg-carbon.jpg");
-    background-repeat: repeat-x;
+  background-image: url("http://www.kamanucomposites.com/static/images/bg-carbon.jpg");
+  background-repeat:  repeat-x;
 }
-.tagline {
-    font-family: Lucida Grande, sans-serif;
-    font-size: 1.1em;
-    font-weight: bold;
-    color: #E5EDDC;
-    text-align: center;
-    width: 8em;
-    line-height: 50px;
+.navbar-inverse li a {
+  font-family: Lucida Grande, Lucida Sans,Verdana, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #E5EDDC;
+  text-decoration: none;
+  line-height: 56px;
+  padding-left: 20px ;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  width: 100%;
+}
+.conoe{
+  background-image: url("http://www.kamanucomposites.com/static/images/www/pueo-canoes-front.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+}
+.tagline{
+  background-color: #000;
+  height: 131px;
+  text-align: center;
+}
+.tagline h2{
+  font-family: Georgia,'Times New Roman', Times;
+  font-size: 3em;
+  padding: 1em 0 0 0;
+  margin: 0;
+  color: #666;
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 0 0 0 #000;
+
 }
